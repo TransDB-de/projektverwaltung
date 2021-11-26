@@ -1,0 +1,19 @@
+name: Verbesserungsvorschlag
+description: Schlage neue Features vor oder bringe Ideen ein
+labels: ["Verbesserungsvorschlag"]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Der Vorschlag
+      description: Beschreibe deine Idee möglichst ausführlich.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reason
+    attributes:
+      label: Grund für die Verbesserung
+      description: Beschreibe, wieso dieser Vorschlag sinnvoll ist und einen Mehrwert bietet.
+    validations:
+      required: true

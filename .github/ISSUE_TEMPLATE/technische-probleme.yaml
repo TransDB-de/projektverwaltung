@@ -1,0 +1,56 @@
+name: Technisches Problem
+description: Melde Fehler oder Probleme mit unserer Webseite
+labels: ["Problem"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Beschreibe das Problem
+      description: Bitte beschreibe möglichst ausführlich, was nicht funktioniert.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Wie können wir den Fehler nachstellen?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: errors
+    attributes:
+      label: Screenshots von Fehlermeldungen
+      description: Screenshots helfen uns, zu sehen, was genau schiefläuft.
+      value: |
+        1.
+        2.
+        3.
+      
+  - type: textarea
+    id: browsers
+    attributes:
+      label: In welchen Browsern tritt das Problem auf?
+      description: Lösche die Browser aus der Liste, die du nicht getestet hast. Denke daran, die Versionsnummer deines Browsers anzugeben.
+      value: |
+        * Firefox - Version:
+        * Chrome - Version:
+        * Opera - Version:
+        * Brave - Version:
+        * Edge - Version:
+        * Safari (Desktop) - Version:
+        * Safari (Mobile) - Version:
+        * Samsung Internet - Version:
+        
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Auf welchen Betriebssystemen tritt das Problem auf?
+      description: Du kannst mehr als ein Element auswählen.
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+        - label: Android
+        - label: IOS

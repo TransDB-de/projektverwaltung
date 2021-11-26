@@ -1,0 +1,11 @@
+name: Frage
+description: Stelle Fragen zum Projekt
+labels: ["Frage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Deine Frage
+      description: Beschreibe dein Anliegen.
+    validations:
+      required: true
