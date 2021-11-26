@@ -15,6 +15,10 @@ body:
     attributes:
       label: Schritte zur Reproduktion
       description: Wie können wir den Fehler nachstellen?
+      value: |
+        1.
+        2.
+        3.
     validations:
       required: true
       
@@ -23,10 +27,6 @@ body:
     attributes:
       label: Screenshots von Fehlermeldungen
       description: Screenshots helfen uns, zu sehen, was genau schiefläuft.
-      value: |
-        1.
-        2.
-        3.
       
   - type: textarea
     id: browsers
@@ -42,6 +42,8 @@ body:
         * Safari (Desktop) - Version:
         * Safari (Mobile) - Version:
         * Samsung Internet - Version:
+    validations:
+      required: true
         
   - type: checkboxes
     id: operating-systems
