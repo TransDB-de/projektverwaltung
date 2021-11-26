@@ -1,3 +1,3 @@
 # Trans\*DB Projektverwaltung
 
-In diesem Repo sammeln wir alle Verbesserungsvorschläge in Form von Issues.
+In diesem Repo sammeln wir alle Verbesserungsvorschläge und Probleme in Form von Issues.
